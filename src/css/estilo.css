@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(46, 44, 44);
+}
+.cartao{
+    background-color: rgb(103, 66, 104);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    margin: 100px 800px;
+    border: 1px solid;
+    border-color: #fff;
+}
+.cartao img{
+    max-width: 150px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-color: #fff;
+    
+}
+.cartao .titulos{
+    max-width: 400px;
+}
+.cartao .titulos h1{
+    margin: 30px;
+    font-size: 50px;
+    font-family: "";
+    color: #fff;
+}
+
+.cartao .titulos h2{
+    font-family: "";
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.cartao ul{
+    margin: 90px;
+    width: 450px;
+    color: #fff;
+    
+}
+.cartao ul li{
+    font-size: 40px;
+    font-family: "";
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid;
+    transition: all 0.3s ease-in;
+}
+.cartao ul :hover{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(103, 66, 104);
+}
